@@ -2,7 +2,7 @@
 
 import {Component, View, bootstrap} from 'angular2/angular2';
 
-@Component({ selector: 'my-app'})
+@Component({ selector: 'my-app1'})
 @View({
 	template: "<h1> Hello {{name}} </h1>"
 })
