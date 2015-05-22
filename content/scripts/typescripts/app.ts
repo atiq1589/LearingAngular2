@@ -19,7 +19,8 @@ class a2app{
 @View({
 	template:`
 		<ul> 
-			<li *for="#url of urlList"> <a href="view/{{url}}.html">{{url}}</a> 
+			<li *for="#url of urlList"> 
+				<a href="view/{{url}}.html"> {{url}} </a> 
 			</li>
 		</ul>
 	`,
