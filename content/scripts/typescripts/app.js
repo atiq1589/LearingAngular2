@@ -24,5 +24,22 @@ define(["require", "exports", 'angular2/angular2'], function (require, exports, 
         ], a2app);
         return a2app;
     })();
+    var UrlHelper = (function () {
+        function UrlHelper() {
+            this.urlList = ['parent-child', 'todo', 'parent-child'];
+        }
+        UrlHelper = __decorate([
+            angular2_1.Component({
+                selector: 'nav-bar'
+            }),
+            angular2_1.View({
+                template: "\n\t\t<ul> \n\t\t\t<li *for=\"#url of urlList\"> <a href=\"view/{{url}}.html\">{{url}}</a> \n\t\t\t</li>\n\t\t</ul>\n\t",
+                directives: [angular2_1.For]
+            }), 
+            __metadata('design:paramtypes', [])
+        ], UrlHelper);
+        return UrlHelper;
+    })();
     angular2_1.bootstrap(a2app);
+    angular2_1.bootstrap(UrlHelper);
 });

@@ -4,7 +4,7 @@ import {Component, View, bootstrap, For} from 'angular2/angular2';
 
 @Component({selector:'todo-list'})
 @View({
-	templateUrl: 'todo-partial.html',
+	templateUrl: 'partial/todo-partial.html',
 	directives: [For]
 })
 class TodoList{

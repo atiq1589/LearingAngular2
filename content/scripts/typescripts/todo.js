@@ -28,7 +28,7 @@ define(["require", "exports", 'angular2/angular2'], function (require, exports, 
         TodoList = __decorate([
             angular2_1.Component({ selector: 'todo-list' }),
             angular2_1.View({
-                templateUrl: 'todo-partial.html',
+                templateUrl: 'partial/todo-partial.html',
                 directives: [angular2_1.For]
             }), 
             __metadata('design:paramtypes', [])
