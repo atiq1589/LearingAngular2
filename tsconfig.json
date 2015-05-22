@@ -8,6 +8,7 @@
         "app.ts",
         "todo.ts",
         "show-properties.ts",
+        "parent-child.ts",
         "typings/tsd.d.ts"
     ]
 }
